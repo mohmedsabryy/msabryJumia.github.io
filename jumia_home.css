@@ -1,0 +1,376 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.banner_image{
+    width: 100%;
+    margin: -10px;
+}
+.sponsers{
+   
+    width: 75%;
+    height: 30px;
+    margin-top: 15;
+    margin-left: 190;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 5;
+}  
+.sponsers a{
+    font-family: 'Gill Sans';
+    color: rgb(255, 149, 0);
+} 
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+#food{
+    color: rgb(255, 149, 0);
+}
+.categories a{
+color: gray;
+}
+.categories :hover{
+    color:rgb(255, 149, 0) ;
+}
+.lang:hover{
+
+color: rgb(255, 149, 0);
+cursor: pointer;
+}
+.jumia_logo_account{
+    position: sticky;
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    display: flex;
+}
+#jumia{
+    margin-right: 60;
+}
+.content_logo{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 15;
+    margin-left: 180px;
+}
+#search_button{
+    border: none;
+    font-size: 17;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 149, 0);
+    width: 90;
+    height: 40;
+    margin-right: 60px;
+    margin-left: 10;
+    box-shadow: 0px 6px #888888;
+}
+#search_button:hover{
+background-color: rgb(249, 100, 0) ;
+}
+.acount{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+.acount:hover{
+    cursor: pointer;
+    color: rgb(255, 149, 0);
+    
+}
+.acount_list{
+    margin-top: 8;
+}
+#text_search{
+    font-size: 17px;
+    height: 40px;
+}
+#left{
+    float: left;
+    border-radius: 5px;
+    width: 210;
+    height: 400;
+    background-color: rgb(255, 248, 248);
+    margin-right: 15;
+}
+#left p{
+    font-family: monospace;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 3;
+    color: black;
+   
+}
+#left p:hover{
+    color: rgb(255, 149, 0);
+    cursor: pointer;
+}
+._img{
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.left_options{
+    margin-top: 10px;
+    margin-left: 180px;   
+}
+.multi_small_imgs{
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 1155px;
+    height: 145px;
+    margin-left: 180px;
+    background-color: white;
+}
+.multi_small_imgs img{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.multi_imgs_2{
+    margin-left: 45px;
+}
+.cards_div{
+    border-radius: 5px;
+    margin-top: 7px;
+    width: 1155px;
+    height: 380px;
+    margin-left: 170px;
+    background-color: white;
+    
+}
+.cards_div h3{
+    
+    font-size: 25px;
+    font-family:  'Times New Roman';
+    margin-left: 6;
+    
+    
+}
+
+.cards{
+    border-radius: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-right: 5px;
+    margin-left: 7px;
+
+}
+.cards del{
+    font-size: 14px;
+    color:  gray;
+}
+.cards:hover{
+    box-shadow: 1px 2px #888888;
+    transition: 0.2;
+}
+
+.multi_small_imgs img{
+border-radius: 5px;
+margin-left: 7;
+}
+
+.mid_txt_ad_free{
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 1155px;
+    height:50px;
+    margin-left: 180px;
+    background-color: rgb(255, 196, 196);
+    text-align: center;
+    
+}
+#freeShipping{
+    padding-top: 15;
+    font-size: 20px;
+    font-family: Verdana;
+
+}
+
+.two_imgs{
+    border-radius: 5px;
+    margin: 5;
+    width: 1155px;
+    height:270px;
+    margin-left: 180px;
+    background-color: rgb(255, 255, 255);
+}
+.free{
+    border-radius: 5px;
+    margin-top: 10;
+    margin-left: 2;
+}
+
+.sales_ad{
+    border-radius: 5px;
+    margin-bottom: -5;
+    margin-top: 0px;
+    width: 1155px;
+    height:62px;
+    margin-left: 180px;
+    background-color: rgb(238, 12, 12);
+    color: white;
+
+    
+}
+.freeShipping{
+    float: left;
+    margin-left: 10px;
+    margin-right: 250px;
+    font-family: 'Trebuchet MS';
+    font-size: 22px;
+}
+.sales_ad2{
+    border-radius: 5px;
+    margin-bottom: -7;
+    margin-top: 10px;
+    width: 1155px;
+    height:50px;
+    margin-left: 180px;
+    background-color: rgb(195, 235, 255);
+    
+}
+.mid_txt_ad_free{
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 1155px;
+    height:50px;
+    margin-left: 180px;
+    background-color: rgb(250, 227, 234);
+    text-align: center;
+}
+.mid_txt_ad_free2{
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 1155px;
+    height:50px;
+    margin-left: 180px;
+    background-color: rgb(195, 235, 255);
+    text-align: center;
+}
+.mid_txt_ad_free3{
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 1155px;
+    height:50px;
+    margin-left: 180px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.cards_div2{
+    border-radius: 5px;
+    margin-top: 7px;
+    width: 1155px;
+    height: 330px;
+    margin-left: 180px;
+    background-color: white;
+}
+
+.two_row_imgs{
+    width: 170px;
+    height: 170px ;
+    margin-top: 10px;
+    margin-left: 10;
+    float: left;
+}
+#multi_small_imgs12{
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 1155px;
+    height: 380px;
+    margin-left: 180px;
+    background-color: white;
+}
+#big{
+    border-radius: 5px;
+    margin: 5;
+    width: 1155px;
+    height:390px;
+    margin-left: 180px;
+    background-color: rgb(255, 255, 255);
+}
+.container_bottom{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 15;
+    margin-left: 160 ;
+}
+.bottom{
+    background-color: rgb(255, 252, 252);
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-left: 40px;
+}
+
+.cards_div_last{
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 1155px;
+    height: 850px;
+    margin-left: 180px;
+    margin-bottom: 70px;
+    background-color: white;
+}
+.cards_div_last h2 {
+    font-family: 'Gill Sans';
+    margin: 20px;
+    font-size: 22px;
+    
+}
+.cards_div_last p{
+    margin: 20px;
+    font-size: 13px;
+    font-family: 'Gill Sans';
+}
+
+.foo{
+    background-color: rgb(64, 59, 59);
+    margin: -10px;
+    width:100% ;
+    height: 600px;
+}
+.div_foo{
+
+    height: 200px;
+
+    background-color: rgb(44, 42, 42);
+}
+
+.foo_top{
+    float: left;
+    margin-right: 130px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+.help{
+    float: left;
+    width: 200;
+    height: 250;
+    margin-right: 100px;
+    margin-left: 70;
+    margin-top: 20;
+}
+.help h4,a{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.gender{
+    margin-top: 5;
+    width: 70px;
+    height: 40px;
+    background-color: rgb(44, 42, 42);
+    border: 1px solid white;
+    color: white;
+}
+.gender:hover{
+    border: 1px solid  rgb(249, 112, 0);
+    color:  rgb(249, 112, 0);
+    cursor: pointer;
+}
